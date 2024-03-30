@@ -8,7 +8,7 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
 # Load the trained Decision Tree model
-with open('logistic.pkl', 'rb') as file:
+with open('random-forest-regressor.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Streamlit app
